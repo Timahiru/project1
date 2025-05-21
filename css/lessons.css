@@ -103,7 +103,11 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    overflow: hidden;        
+    word-wrap: break-word;    
+    text-overflow: ellipsis; 
 }
+
 
 .card p {
     color: var(--orange);
